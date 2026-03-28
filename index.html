@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Beswick — SportsMind</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background: #f9f8f6;
+            color: #3a3a3a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 640px;
+            width: 100%;
+            padding: 3rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            width: 220px;
+            margin-bottom: 2.5rem;
+        }
+
+        .photo {
+            width: 100%;
+            max-width: 480px;
+            border-radius: 8px;
+            margin-bottom: 2.5rem;
+        }
+
+        .message {
+            line-height: 1.75;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        .message p {
+            margin-bottom: 1.25rem;
+        }
+
+        .message p:last-child {
+            margin-bottom: 0;
+            font-style: italic;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: #2bbcc5;
+            margin: 2rem auto;
+            border: none;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 2rem 1.25rem;
+            }
+
+            .logo {
+                width: 180px;
+            }
+
+            .message {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <img src="logo.png" alt="Bill Beswick SportsMind" class="logo">
+        <img src="bill-1_large.png" alt="Bill Beswick" class="photo">
+        <hr class="divider">
+        <div class="message">
+            <p>After many years, SportsMind is closing as Bill Beswick retires.</p>
+            <p>To every coach, player and fan who visited this site, bought a resource, or simply took an idea back to the training ground — thank you. Bill's work has helped stretch performances and shape positive attitudes across sports and across the world.</p>
+            <p>We're grateful to every client, colleague and supporter who has been part of this journey.</p>
+            <p>Wishing you all the best — on and off the pitch.</p>
+        </div>
+    </main>
+</body>
+</html>
